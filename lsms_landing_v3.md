@@ -1,0 +1,76 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+<br>
+
+<p float="center">
+
+<img src="survey_support_tools_banner_v3.svg" width="100%" />
+
+</p>
+
+<div align="justify">
+
+<div align="center">
+
+## Survey Solutions API Tools
+
+</div>
+
+This section provides tools for interacting with the Survey Solutions
+REST and GraphQL API tools. You will find different tools for different
+flavors, some tools offer more flexibility to the user, while others
+provide a more deterministic approach but less flexibility. See the
+individual repository for details.
+
+| Name                        | Description                                                                                              | Link                                                              |
+|-----------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| <b>SurveySolutionsAPIv2</b> | A comprehensive set of R functions to access the Survey Solutions REST/GraphQL API (httr2 based version) | [GitHub Repo](https://github.com/michael-cw/SurveySolutionsAPIv2) |
+| <b>susographql</b>          | Survey Solutions GraphQL R client                                                                        | [GitHub Repo](https://github.com/michael-cw/susographql)          |
+
+<div align="center">
+
+## Sampling Tools
+
+</div>
+
+Tools in this section offers utilities for designing and implementing
+various types of sampling strategies.
+
+| Name                  | Description                                                                                                                                              | Link                                                        |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| <b>susospatsample</b> | A R Shiny application to use spatial resources in survey sampling and to produce the relevant field work resources for the Survey Solutions CAPI system. | [GitHub Repo](https://github.com/michael-cw/susospatsample) |
+| <b>susolisting</b>    | A R Shiny app to conduct survey listing within polygon boundaries on Google Maps (desktop)                                                               | [GitHub Repo](https://github.com/michael-cw/susolisting)    |
+| <b>ReGenesees</b>     | R Evolved Generalized Software for Sampling Estimates and Errors in Surveys                                                                              | [GitHub Repo](https://github.com/DiegoZardetto/ReGenesees)  |
+| Tool 4                | Description 4                                                                                                                                            | [Link 4](#)                                                 |
+
+<div align="center">
+
+## Data Collection Tools
+
+</div>
+
+Data Collection Tools are designed to facilitate the process of
+collecting survey data.
+
+| Name                  | Description                                                                                                                                                                     | Link             |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| <b>susoparaviewer</b> | A simple Shiny application to process, visualize and generate reports (doc, ppt, html) from Survey Solutions paradata at the Questionnaire, the Interviewer and the Area level. | [GitHub Repo](#) |
+| Tool 6                | Description 6                                                                                                                                                                   | [Link 6](#)      |
+
+<div align="center">
+
+## Data Processing Tools
+
+</div>
+
+Data Processing Tools are a suite of tools for cleaning, analyzing, and
+visualizing survey data. It is not limited to data collected through
+Survey Solutions, but the use of it greatly facilitates integration.
+
+| Name              | Description                                                                      | Link                                                        |
+|-------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------|
+| <b>labeller</b>   | Spot and fix common problems with variable and value labels🏷                     | [GitHub Repo](https://github.com/lsms-worldbank/labeller)   |
+| <b>cleanstart</b> | App for quickly creating Stata cleaning scripts from the SuSo questionnaire 🧼🚦 | [GitHub Repo](https://github.com/lsms-worldbank/cleanstart) |
+
+</div>
