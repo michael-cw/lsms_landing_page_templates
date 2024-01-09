@@ -5,7 +5,7 @@
 
 <p float="center">
 
-<img src="survey_support_tools_banner.svg" width="100%" />
+<img src="survey_support_tools_banner_v2.svg" width="100%" />
 
 </p>
 
